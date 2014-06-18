@@ -84,7 +84,20 @@ body{
 }
 
 .section-title{
-
+	border-bottom: 1px solid #BDC3C7;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	font-size: 14px;
 }
 
 /*Articles*/
+
+/*Tables*/
+
+
+
+/*Tables*/
