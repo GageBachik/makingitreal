@@ -98,6 +98,29 @@ body{
 
 /*Tables*/
 
+.table-container{
+	margin: 1.5em;
+}
 
+.article-table{
+	border-collapse: collapse;
+}
+
+.article-table th{
+	background-color: #BDC3C7;
+	text-align: left;
+	text-indent: 0.2em;
+	font-size: 12px;
+	padding: .5em;
+}
+
+.article-table td{
+	font-size: 12px;
+	padding: 0.6em;
+}
+
+.article-table, .article-table td, .article-table th{
+	border: 1px solid #999999;
+}
 
 /*Tables*/
