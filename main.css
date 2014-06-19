@@ -317,8 +317,16 @@ body{
 .sidbar-links{
 	padding: 0.5em;
 	font-size: 12px;
-	color: #666666;
 	margin-left: 0.5em;
+}
+
+.sidebar-link{
+	color: #666666;
+	text-decoration: none;
+}
+
+.sidebar-link:hover{
+	color: #2ECC71;
 }
 
 /*Sidebar*/
