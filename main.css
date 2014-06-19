@@ -10,6 +10,7 @@ body{
 .flexwrap{
 	display: flex;
 	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .main-site-container{
@@ -27,6 +28,10 @@ body{
 	display: block;
 }
 
+.bottom-spacing{
+	width: 100%;
+	height: 3em;
+}
 /*.sidebar{
 
 }*/
@@ -241,3 +246,79 @@ body{
 }
 
 /*Comments*/
+
+.comment-container{
+ 	padding: 0.5em;
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+.reply {
+	border-left: 1px solid #999;
+	position: relative;
+	left: 2em;
+}
+
+.comment-reply{
+	margin-right: 1em;
+}
+
+.user-info-reply{
+	display: inline-block;
+}
+
+.user-container{
+	display: table;
+	padding-right: 21em;
+}
+
+.user-container > *{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.user-image{
+	display: inline-block;
+}
+
+.user-info{
+	display: inline-block;
+	padding: 1em;
+}
+
+.date {
+	color: #999999;
+	font-style: italic;
+}
+
+/*Sidebar*/
+
+.sidbar{
+	position: fixed;
+	top: 16.8em;
+	left: 48.5em;
+	background-color: #ECF0F1;
+	border-bottom: 3px solid #444444;
+	padding: 1em;
+
+}
+
+.sidbar > *{
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+.sidebar-title{
+
+}
+
+.sidbar-links{
+	padding: 0.5em;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 0.5em;
+}
+
+/*Sidebar*/
