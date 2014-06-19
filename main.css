@@ -297,8 +297,8 @@ body{
 
 .sidbar{
 	position: fixed;
-	top: 16.8em;
-	left: 48.5em;
+	top: 29.5%;
+	left: 75%;
 	background-color: #ECF0F1;
 	border-bottom: 3px solid #444444;
 	padding: 1em;
