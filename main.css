@@ -84,7 +84,7 @@ body{
 	font-size: 18px;
 }
 
-.article-content{
+.article-content, .article-list{
 	padding: 0.5em;
 	margin-left: 2.5em;
 	margin-right: 2.5em;
@@ -101,6 +101,23 @@ body{
 	padding-bottom: 0.5em;
 	padding-left: 1em;
 	font-size: 14px;
+}
+
+.article-list > *{
+	font-size: 12px;
+}
+
+.list-title, .footer-title{
+	font-weight: bold;
+}
+
+.article-footer{
+	padding: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #9B9999;
 }
 
 /*Articles*/
@@ -171,3 +188,56 @@ body{
 }
 
 /*Code Boxes*/
+
+/*Comments*/
+
+.comment-form{
+	padding: 0.5em;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+.comment-form fieldset{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.comment-form legend{
+	color: #999999;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+.legend-title{
+	padding: 1em;
+}
+.comment-textbox{
+	width: 70%;
+	height: 1.7em;
+	margin-right: 1.5em;
+}
+
+.comment-textbox:last-child{
+	margin-bottom: 3em;
+}
+
+.comment-button{
+	color: white;
+	background-color: #C0392B;
+	width: 100%;
+	height: 2.5em;
+	border: none;
+}
+.fieldset-content{
+	line-height: 3em;
+}
+
+.fieldset-centered{
+	text-align: center;
+}
+
+.fieldset-right{
+	text-align: right;
+}
+
+/*Comments*/
