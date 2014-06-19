@@ -18,6 +18,15 @@ body{
 	background-color: #ECF0F1;
 }
 
+.image-container{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image-container img {
+	display: block;
+}
+
 /*.sidebar{
 
 }*/
@@ -100,6 +109,8 @@ body{
 
 .table-container{
 	margin: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 .article-table{
@@ -123,4 +134,40 @@ body{
 	border: 1px solid #999999;
 }
 
+.article-table button{
+	color: white;
+	background-color: #3498DB;
+	border: 0;
+	padding: 0.5em;
+	padding-left: 1.8em;
+	padding-right: 1.8em;
+	font-size: 11px;
+}
+
 /*Tables*/
+
+/*Code Boxes*/
+
+.code-container{
+	margin: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	background-color: #BDC3C7;
+}
+
+.code-container code {
+	font-size: 12px;
+	margin: 1em;
+	padding: 1em;
+}
+
+.code-container code p {
+	color: #333333;
+	margin-left: 3em;
+}
+
+.code-container code p:nth-child(2) {
+	margin-left: 4em;
+}
+
+/*Code Boxes*/
